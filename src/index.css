@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@theme {
+  /* ---- COLORS ---- */
+  /* NEUTRAL */
+  --color-blue-50: hsl(240, 78%, 98%);
+  --color-gray-650: hsl(233, 13%, 49%);
+  --color-gray-700: hsl(232, 13%, 33%);
+
+  /* PRIMARY - GRADIENT */
+  --color-indigo-200: hsl(237, 73%, 79%);
+  --color-indigo-500: hsl(238, 63%, 64%);
+}
+
+@utility montserrat-* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: --value(--font-family-*);
+  font-style: normal;
+}
