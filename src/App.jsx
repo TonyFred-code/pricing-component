@@ -31,7 +31,7 @@ export default function App() {
             return (
               <li
                 key={NAME}
-                className={`card ${FEATURED ? "card--primary" : "card--secondary"} ${NAME === "basic" ? "card--basic-pricing" : NAME === "master" ? "card--master-pricing" : "card--professional-pricing"}`}
+                className={`card ${FEATURED ? "card--primary" : "card--secondary"} ${NAME === "basic" ? "card--basic-pricing" : NAME === "master" ? "card--master-pricing" : ""}`}
               >
                 <h2 className="capitalize">{NAME}</h2>
                 <p className="price">
