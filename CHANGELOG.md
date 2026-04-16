@@ -21,3 +21,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added `prop-types` package to ensure props validation
 
 ---
+
+## [1.1.0] - 2026-04-16
+
+### Added
+
+- Added project screenshots
+
+### Changed
+
+- Updated project readme file according to final build and given template
+- Simplified card variation tokens by removing unused token (`card--professional-pricing`)
+
+### Removed
+
+- Removed `README-template.md` and `template.html` files
+
+### Fixed
+
+- Corrected invalid token in `Toggle` component classname
