@@ -21,7 +21,7 @@ export default function TogglePricingTerm({ pricingTerm, togglePricingTerm }) {
         />
         <label
           htmlFor="pricing_terms"
-          className="absolute top-0 left-0 w-full h-full bg-linear-to-r from-indigo-200 to-indigo-500 rounded-4xl cursor-pointer duration-300 before:content-[''] before:absolute e before:size-5 before:rounded-full before:top-0.75 before:left-0.75 before:bg-white before:transition-transform before:duration-300 peer-checked:before:translate-x-5.5 hover:opacity-50 transition"
+          className="absolute top-0 left-0 w-full h-full bg-linear-to-r from-indigo-200 to-indigo-500 rounded-4xl cursor-pointer duration-300 before:content-[''] before:absolute before:size-5 before:rounded-full before:top-0.75 before:left-0.75 before:bg-white before:transition-transform before:duration-300 peer-checked:before:translate-x-5.5 hover:opacity-50 transition"
         ></label>
       </div>
       <label
